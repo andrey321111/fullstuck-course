@@ -1,0 +1,53 @@
+p{
+    font-family: 'Ruluko', sans-serif;
+    color: white;
+    font-size: 26px;
+    margin: 0px;
+    margin-top: 4px;
+}
+h1{
+    font-family: 'Ruluko', sans-serif;
+    color: yellow;
+    margin:0px;
+}
+.box{
+    background-color: black;
+    width: 500px;
+    height: 410px;
+   text-align: center;
+   margin: auto;
+
+   
+    
+}
+img{
+    border:solid yellow;
+    border-width: 3px;
+    margin-top: 10px;
+
+}
+.container{
+    background-color: black;
+}
+.myimg{
+    width: 100%;
+    
+    
+}
+.mydiv{
+width: 50%;
+margin-left: 25%;
+margin: auto;
+margin-top: 125px;
+}
+.myp{
+    font-family: 'Libre Baskerville', serif;
+    color: white;
+    text-align: center;
+
+}
+.myh1{
+    font-family: 'Libre Baskerville', serif;
+    color: yellow;
+    text-align: center;
+}
