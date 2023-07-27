@@ -1,0 +1,17 @@
+/* Write your code here: */
+h1,h2{
+    color: purple;/*Group selector*/
+}
+.box > .done{
+    color: firebrick;/*child selector slect the class 1 level below the box class*/
+}
+.box li{
+    color: blue;/*Descendant,all the classes below left side element wil take effect
+     unlike the child selector*/
+}
+li.done{
+    color: seagreen;/* chaining class aplly when all classes are true(no apace and elements first)*/
+}
+ul p.done{
+    font-size: 0.5rem;/*chaining chainers*/
+}
