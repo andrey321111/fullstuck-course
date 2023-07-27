@@ -1,0 +1,78 @@
+
+.title{
+background-color: blue;
+height: 50px;
+text-align: center;
+}
+.title h1{
+    color: white;
+}
+.nav{
+    background-color: aqua;
+    display: flex;
+    
+    padding: 10px;
+    
+}
+.nav-element{
+    text-align: center;
+    border: solid black;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    position: relative;
+    left:2;
+}
+a{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+.box-display{
+    border: solid black;
+    border-width: 3px;
+    height: 250px;
+    width: 300px;
+    margin-left: 33%;
+    margin-top: 100px;
+}
+.box-display p{
+    margin:0%;
+    margin-left: 2px;
+}
+.box-static{
+    background-color: aquamarine;
+    margin-left: 2px;
+    width: 100px;
+    height: 100px;
+    position: static;
+    left: 50px;
+    top: 50px;
+}
+.box-absolute{
+    background-color: aquamarine;
+    margin-left: 2px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+.box-relative{
+    background-color: aquamarine;
+    margin-left: 2px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.box-fixed{
+    background-color: aquamarine;
+    margin-left: 2px;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 50px;
+    top: 50px;
+}
