@@ -1,0 +1,53 @@
+
+body{
+    font-family: 'REM', sans-serif;
+    background-color: #FFEECC;
+}
+span{
+    color: #FEBBCC;
+}
+h2{
+    color: #FFCCCC;
+}
+.main-box{
+    margin:3% ;
+    
+}
+.img-box{
+    display: inline-block;
+    width: 44%;
+    text-align: left;
+}
+.box img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+}
+
+.second-box h1{
+    text-align: left;
+    font-size: 5rem;
+}
+.box{
+    width: 45%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.footer p{
+    float: right;
+    color: #FFCCCC;
+}
+@media (max-width:388px){
+    .box{
+        display: block;
+        width: 100%;
+    }
+    .box img{
+        width: 100%;
+    }
+}
